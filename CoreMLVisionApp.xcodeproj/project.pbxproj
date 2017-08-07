@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE7472A91F3846BC00B66917 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BE7472A71F3845FE00B66917 /* Inceptionv3.mlmodel */; };
 		BEFD9F0B1F383CC5008BD58F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFD9F0A1F383CC5008BD58F /* AppDelegate.swift */; };
 		BEFD9F0D1F383CC5008BD58F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFD9F0C1F383CC5008BD58F /* ViewController.swift */; };
 		BEFD9F101F383CC5008BD58F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEFD9F0E1F383CC5008BD58F /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BE7472A71F3845FE00B66917 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 		BEFD9F071F383CC5008BD58F /* CoreMLVisionApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreMLVisionApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEFD9F0A1F383CC5008BD58F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEFD9F0C1F383CC5008BD58F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				BEFD9F1C1F3840FB008BD58F /* App */,
 				BEFD9F0E1F383CC5008BD58F /* Main.storyboard */,
 				BEFD9F131F383CC5008BD58F /* LaunchScreen.storyboard */,
+				BE7472A71F3845FE00B66917 /* Inceptionv3.mlmodel */,
 				BEFD9F111F383CC5008BD58F /* Assets.xcassets */,
 				BEFD9F161F383CC5008BD58F /* Info.plist */,
 			);
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEFD9F0D1F383CC5008BD58F /* ViewController.swift in Sources */,
+				BE7472A91F3846BC00B66917 /* Inceptionv3.mlmodel in Sources */,
 				BEFD9F0B1F383CC5008BD58F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
